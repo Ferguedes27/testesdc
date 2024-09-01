@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Fernanda Cristina Silveira Guedes</title>
+</head>
+<body>
+    <h1>Bem-vindo à Página de Fernanda Cristina Silveira Guedes</h1>
+    <p>Sou Fernanda Cristina Silveira Guedes, tenho 26 anos, sou solteira e amante de práticas marciais como o Jiu-jitsu.</p>
+
+    <h2>Experiências Profissionais</h2>
+    <ul>
+        <li><a href="#tatuagem" onclick="mostrarTatuagem()">Tatuagem</a></li>
+        <li><a href="#blackwork" onclick="mostrarBlackWork()">Desenhos Black Work</a></li>
+        <li><a href="https://www.instagram.com/guedes.tattooartist?igsh=Nzg2ZmYwMDhlamt4"onclick="intagram ()">Tatuagens do instagram</a></li>
+    </ul>
+
+    <script>
+        function mostrarTatuagem() {
+            alert("Experiência profissional em tatuagem: Com vários anos de prática, especializo-me em criar tatuagens detalhadas e personalizadas que refletem a personalidade e as histórias dos meus clientes.");
+        }
+
+        function mostrarBlackWork() {
+            alert("Experiência com desenhos Black Work: Apaixonada por linhas fortes e contrastes marcantes, desenvolvo trabalhos de black work que enfatizam o poder do preto em suas formas mais puras.");
+        }
+    </script>
+</body>
+</html>
